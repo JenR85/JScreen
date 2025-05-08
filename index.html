@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> J-Screener</title>
+	<link rel="stylesheet" href="css/style.css" >
+
+</head>
+
+<body>
+	
+	<!-- TradingView Widget UP -->
+	<div class="box0">
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+			  {
+			  "symbols": [
+				{
+				  "proName": "FOREXCOM:SPXUSD",
+				  "title": "S&P 500 Index"
+				},
+				{
+				  "proName": "BITSTAMP:BTCUSD",
+				  "title": "Bitcoin"
+				},
+				{
+				  "proName": "BITSTAMP:ETHUSD",
+				  "title": "Ethereum"
+				},
+				{
+				  "description": "",
+				  "proName": "CRYPTOCAP:TOTAL3"
+				}
+			  ],
+			  "isTransparent": false,
+			  "showSymbolLogo": true,
+			  "largeChartUrl": "",
+			  "colorTheme": "dark",
+			  "locale": "ru"
+			}
+		</script>
+	</div>
+		
+	
+	<!-- TradingView Widget -->
+	<div class="box1">
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+			{
+			  "autosize": true,
+			  "symbol": "BINANCE:BTCUSDT.P",
+			  "interval": "240",
+			  "timezone": "Europe/Moscow",
+			  "theme": "dark",
+			  "style": "1",
+			  "locale": "ru",
+			  "backgroundColor": "rgba(25, 25, 25, 1)",
+			  "hide_side_toolbar": false,
+			  "allow_symbol_change": true,
+			  "hide_volume": true,
+			  "hide_legend": true,
+
+			  "support_host": "https://www.tradingview.com"
+			}
+		 </script>
+	</div>
+		
+				
+	<!-- TradingView Widget -->
+	<div class="box1">
+
+		<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+			{
+			  "autosize": true,
+			  "symbol": "FOREXCOM:SPX500",
+			  "interval": "240",
+			  "timezone": "Europe/Moscow",
+			  "theme": "dark",
+			  "style": "1",
+			  "locale": "ru",
+			  "backgroundColor": "rgba(25, 25, 25, 1)",
+			  "hide_side_toolbar": false,
+			  "allow_symbol_change": true,
+			  "hide_volume": true,
+			  "hide_legend": true,
+
+			  "support_host": "https://www.tradingview.com"
+			}
+		 </script>
+	</div>
+		
+	<!-- Investing News -->		
+	<div class="box2">		
+			<iframe src="https://sslecal2.investing.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&importance=3&features=datepicker,timezone,timeselector,filters&countries=5&calType=day&timeZone=18&lang=7" width="100%" height="100%" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"> </iframe>
+			<div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"></div>
+	</div>
+		
+
+</body>
+	
+</html>
