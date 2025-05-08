@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> J-Screener</title>
+	<link rel="stylesheet" href="css/style.css" >
+
+</head>
+
+<body>
+	
+	
+		<!-- TradingView Widget UP -->
+		<div class="box0">
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+				{
+				"symbols": [
+					{
+					"proName": "FOREXCOM:SPXUSD",
+					"title": "S&P 500 Index"
+					},
+					{
+					"proName": "BITSTAMP:BTCUSD",
+					"title": "Bitcoin"
+					},
+					{
+					"description": "",
+					"proName": "CRYPTOCAP:TOTAL3"
+					}
+				],
+				"isTransparent": true,
+				"showSymbolLogo": true,
+				"largeChartUrl": "",
+				"colorTheme": "dark",
+				"locale": "ru"
+				}
+			</script>
+		</div>
+			
+		
+		<!-- TradingView Widget -->
+		<div class="box1" style="height:calc(50% - 40px);width:100%">
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+				{
+				"autosize": true,
+				"symbol": "BINANCE:BTCUSDT.P",
+				"interval": "240",
+				"timezone": "Europe/Moscow",
+				"theme": "dark",
+				"style": "1",
+				"locale": "ru",
+				"backgroundColor": "rgba(25, 25, 25, 1)",
+				"hide_side_toolbar": false,
+				"allow_symbol_change": true,
+				"hide_volume": true,
+				"hide_legend": true,
+
+				"support_host": "https://www.tradingview.com"
+				}
+			</script>
+		</div>
+			
+					
+		<!-- TradingView Widget -->
+		<div class="box1" style="height:calc(50% - 40px);width:100%">
+
+			<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
+				{
+				"autosize": true,
+				"symbol": "FOREXCOM:SPX500",
+				"interval": "240",
+				"timezone": "Europe/Moscow",
+				"theme": "dark",
+				"style": "1",
+				"locale": "ru",
+				"backgroundColor": "rgba(25, 25, 25, 1)",
+				"hide_side_toolbar": false,
+				"allow_symbol_change": true,
+				"hide_volume": true,
+				"hide_legend": true,
+
+				"support_host": "https://www.tradingview.com"
+				}
+			</script>
+		</div>
+			
+		<div class="box-button-container"><a href="index.html" title="Add Investing News" >&#8657;	</a></div>
+	
+</body>
+	
+</html>
